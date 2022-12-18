@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #595858;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.box {
+  background-color: #3a2747;
+  width: 100%;
+  height: 35vh;
+  transform: rotate(-5deg) scale(2);
+}
+
+.container-box-content {
+  width: 70%;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  margin: auto;
+  border: 1px solid rgb(233, 232, 232);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 999;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 3% auto;
+}
+
+nav img {
+  width: 150px;
+}
+
+nav .menu-icon {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #595858;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a .link-app {
+  background-color: #6d4985;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+
+nav ul li a:hover {
+  color: #9900ff;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.content-start {
+  flex-basis: 60%;
+}
+
+.content-start p {
+  width: 80%;
+  font-size: 12px;
+  padding: 10px 0px;
+  margin-bottom: 3%;
+}
+
+.content-start h1 {
+  font-size: 45px;
+  color: rgb(120, 98, 75);
+}
+
+.content-start a {
+  color: #fff;
+  background-color: #6d4985;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-weight: bold;
+}
+
+.content-center {
+  flex-basis: 35%;
+  text-align: center;
+}
+
+.content-center .content-center-img .image {
+  width: 55%;
+}
+.content-center-side {
+  display: none;
+}
+
+.content-end {
+  flex-basis: 5%;
+}
+
+.content-end ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.content-end ul li a {
+  color: #000;
+}
+
+.content-start,
+.content-end {
+  margin-top: 5%;
+}
+
+.menu {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.menu .sub-image {
+  width: 8%;
+  transition: all 0.3s ease;
+}
+
+.menu .sub-image:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.content-end-mobile {
+  display: none;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page Chatime</title>
+    <link rel="icon" href="assets/image/data_100_download-logo-chatime-6.jpg" sizes="any" />
+    <!-- Font Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS Animated -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/style/style.css" />
+    <link rel="stylesheet" href="dist/style/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+    <div class="container-box-content" data-aos="zoom-in" data-aos-duration="1000">
+      <div class="wrapper">
+        <!-- NAVBAR -->
+        <nav>
+          <img src="assets/image/logo.svg" alt="chatime logo" />
+          <div class="fa fa-bars menu-icon"></div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">What's News</a></li>
+            <li>
+              <a href="#"><span class="link-app">Mobile App</span></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- END NAVBAR -->
+      </div>
+      <div class="wrapper">
+        <div class="content">
+          <div class="content-start" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">
+            <h2>Segarkan Harimu dengan</h2>
+            <h1 id="namamenu">Cocoa Smoothie</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos necessitatibus animi explicabo excepturi ad tenetur quam tempora, nemo recusandae numquam.</p>
+            <a href="#">More Info</a>
+          </div>
+          <div class="content-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1600">
+            <div class="content-center-img">
+              <img src="assets/image/cocoadeluxe.png" alt="" class="image" id="headmenu" />
+            </div>
+          </div>
+
+          <div class="content-end" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1200">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/chatimeindo/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/chatimeindo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/chatimeindo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu">
+          <img src="assets/image/cocoadeluxe.png" onclick="menu(1)" onmouseover="menu(1)" alt="" class="sub-image" />
+          <img src="assets/image/espresso.png" alt="" onclick="menu(2)" onmouseover="menu(2)" class="sub-image" />
+          <img src="assets/image/mango.png" alt="" onclick="menu(3)" onmouseover="menu(3)" class="sub-image" />
+          <img src="assets/image/strawberry.png" onclick="menu(4)" onmouseover="menu(4)" alt="" class="sub-image" />
+        </div>
+        <div class="content-end-mobile">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/chatimeindo/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/chatimeindo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/chatimeindo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- AOS INIT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Javascript -->
+    <script src="dist/script/script.js"></script>
+  </body>
+</html>
