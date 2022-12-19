@@ -83,8 +83,8 @@
     font-size: 20px;
   }
   .menu .sub-image {
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
   }
 
   .content-end-mobile {
@@ -93,6 +93,7 @@
 
   .content-end-mobile ul li {
     font-size: 17px;
+    color: #6d4985;
   }
 }
 
@@ -122,5 +123,6 @@
 
   .content-end-mobile ul li {
     font-size: 15px;
+    color: #6d4985;
   }
 }
